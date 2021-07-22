@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="fr" style="height: auto; min-height: 100%;">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+        
+        <!-- Module title -->
+		<title>WinPro.Business.Setup</title>                                                
+        
+        <!-- Module Icon -->
+        <link rel="shortcut icon" href="../shared/winpro/img/solunix.ico">
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <!-- Tell the browser to be responsive to screen width -->
+        <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+        
+        <!-- Includes default WinPro CSS Kit -->
+	
+		<link rel="stylesheet" href="../common/AdminLTE-3.0.4/plugins/datatables-autofill/css/autoFill.bootstrap4.css">
+		<link rel="stylesheet" href="../common/AdminLTE-3.0.4/plugins/datatables-buttons/css/buttons.bootstrap4.min.css">
+		<link rel="stylesheet" href="../common/AdminLTE-3.0.4/plugins/datatables-colreorder/css/colReorder.bootstrap4.min.css">
+		<link rel="stylesheet" href="../common/AdminLTE-3.0.4/plugins/datatables-fixedcolumns/css/fixedColumns.bootstrap4.min.css">
+		<link rel="stylesheet" href="../common/AdminLTE-3.0.4/plugins/datatables-fixedheader/css/fixedHeader.bootstrap4.min.css">
+		<link rel="stylesheet" href="../common/AdminLTE-3.0.4/plugins/datatables-keytable/css/keyTable.bootstrap4.min.css">
+		<link rel="stylesheet" href="../common/AdminLTE-3.0.4/plugins/datatables-responsive/css/responsive.bootstrap4.min.css">
+		<link rel="stylesheet" href="../common/AdminLTE-3.0.4/plugins/datatables-rowgroup/css/rowGroup.bootstrap4.min.css">
+		<link rel="stylesheet" href="../common/AdminLTE-3.0.4/plugins/datatables-rowreorder/css/rowReorder.bootstrap4.min.css">
+		<link rel="stylesheet" href="../common/AdminLTE-3.0.4/plugins/datatables-scroller/css/scroller.bootstrap4.min.css">
+		<link rel="stylesheet" href="../common/AdminLTE-3.0.4/plugins/datatables-select/css/select.bootstrap4.min.css">
+		<link rel="stylesheet" href="../common/AdminLTE-3.0.4/plugins/datatables-bs4/css/dataTables.bootstrap4.min.css">
+		<link rel="stylesheet" href="../common/AdminLTE-3.0.4/plugins/ekko-lightbox/ekko-lightbox.css">
+		<link rel="stylesheet" href="../common/AdminLTE-3.0.4/plugins/flag-icon-css/css/flag-icon.min.css">
+	
+		<!-- Daterange picker -->
+		<link rel="stylesheet" href="../common/AdminLTE-3.0.4/plugins/daterangepicker/daterangepicker.css">
+		<link rel="stylesheet" href="../common/css/bootstrap-datepicker.min.css">
+	
+		<!--fullCalendar-->
+		<link rel="stylesheet" href="../common/AdminLTE-3.0.4/plugins/fullcalendar/main.min.css">
+	
+		<!--fullcalendar bootstrap-->
+		<link rel="stylesheet" href="../common/AdminLTE-3.0.4/plugins/fullcalendar-bootstrap/main.min.css">
+	
+		<!--fullcaendar daygrid-->
+		<link rel="stylesheet" href="../common/AdminLTE-3.0.4/plugins/fullcalendar-daygrid/main.min.css">
+	
+		<!-- icheck-bootstrap v3.0.1 -->
+		<link rel="stylesheet" href="../common/AdminLTE-3.0.4/plugins/icheck-bootstrap/icheck-bootstrap.min.css">
+	
+		<!-- Tempusdominus Bbootstrap 4 -->
+		<link rel="stylesheet" href="../common/AdminLTE-3.0.4/plugins/tempusdominus-bootstrap-4/css/tempusdominus-bootstrap-4.min.css">
+	
+		<!-- JQVMap -->
+		<link rel="stylesheet" href="../common/AdminLTE-3.0.4/plugins/jqvmap/jqvmap.min.css">
+	
+		<!-- overlayScrollbars -->
+		<link rel="stylesheet" href="../common/AdminLTE-3.0.4/plugins/overlayScrollbars/css/OverlayScrollbars.min.css">
+	
+		<!-- summernote -->
+		<link rel="stylesheet" href="../common/AdminLTE-3.0.4/plugins/summernote/summernote-bs4.css">
+	
+		<!-- Font Awesome Icons -->
+		<link rel="stylesheet" href="../common/AdminLTE-3.0.4/plugins/fontawesome-free/css/all.min.css">
+	
+		<!-- Theme style -->
+		<link rel="stylesheet" href="../common/AdminLTE-3.0.4/dist/css/adminlte.css">
+	
+		<!-- Google Font: Source Sans Pro -->
+		<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700" rel="stylesheet">
+	
+		<!--Chart JS-->
+		<link rel="stylesheet" href="../common/AdminLTE-3.0.4/plugins/chart.js/Chart.min.css">
+	
+		<!-- 	
+		<link rel="stylesheet" href="../common/templates/sxTemplate/css/webflow.css">
+		<link rel="stylesheet" href="../common/templates/sxTemplate/css/solunix-ltemainbones.webflow.css"> -->
+	
+		<!-- <link rel="stylesheet" href="../common/templates/mapple-template/css/datatable.Solunix.css"> -->
+		<link rel="stylesheet" href="../common/css/jquery.fileupload.css">
+	
+		<link rel="stylesheet" href="../common/css/selectize.default.css">
+	
+			<!-- Inclut par Max -->
+		<link href='../shared/mapple/CSS/mapple.css' rel='stylesheet'>
+	
+		<!-- Pas sur ou c'est utilisé -->
+		<link href='../shared/mapple/CRM-2/packages/core/main.css' rel='stylesheet'>
+		<link href='../shared/mapple/CRM-2/packages/daygrid/main.css' rel='stylesheet'>
+		<link href='../shared/mapple/CRM-2/packages/timegrid/main.css' rel='stylesheet'>
+		<link href='../shared/mapple/CRM-2/packages/list/main.css' rel='stylesheet'>
+		
+	
+	
+	
+		<link rel="stylesheet" href="../common/css/jquery.dataTables.min.css">
+		<!-- Toastr -->
+		<!-- Pas sur ou c'est utilisé -->
+		<link href='../shared/mapple/CRM-2/plugins/toastr/toastr.css' rel='stylesheet'>
+	
+		<!-- icheck material -->
+		<!-- Pas sur ou c'est utilisé -->
+		<link href='../shared/mapple/CRM-2/plugins/icheck-material-1.0.1/icheck-material.css' rel='stylesheet'>
+		<link href='../shared/mapple/CRM-2/plugins/icheck-material-1.0.1/icheck-material-custom.css' rel='stylesheet'>
+	
+		<script type="module" src="https://unpkg.com/ionicons@5.0.0/dist/ionicons/ionicons.esm.js"></script>
+		<script nomodule="" src="https://unpkg.com/ionicons@5.0.0/dist/ionicons/ionicons.js"></script>
+	
+	
+	
+	
+		<!-- MAPPLE / CRM-2 
+		<link rel="stylesheet" href="../shared/mapple/CRM-2/css/crm.css">
+		<link rel="stylesheet" href="../shared/mapple/CRM-2/css/style-crm.css">
+		-->
+		<link rel="stylesheet" href='../shared/mapple/Mapple-templates/css/mapple-template.css' rel='stylesheet'>
+		
+		<link rel="stylesheet" href='../shared/winpro/css/adminlte.patch.css' rel='stylesheet'>
+
+
+
+	</head>
+	<body class="layout-fixed hold-transition skin-blue-light fixed">
+        
+        <!-- Needed DIV... should be moved somewhere -->
+		<div class="wrapper" id="bodywrap"></div>
+        <div class="loader-bg"><div class="spin-container"></div><span class="label"></span></div>
+       
+		<h1>Tests WinPro.Business.Products</h1>
+		<div class="row">
+			<div class="col-md-6">
+				<h2>1- Entit&#233;es</h2>
+				<textarea style="width:100%;height:600px" id="logMe"></textarea>
+			</div>
+			<div class="col-md-6">
+
+				<div class="hidden" id="step2">
+					<h2>2- Upload Picture.ssp</h2>
+					<input id="addPhoto" type="file" name="files[]" multiple>	
+					<div id="logUploadPicture"></div>
+				</div>
+
+				<div class="hidden" id="step3">
+					<h2>3- View Picture.ssp</h2>	
+					<img style ="width:50%; height:50%;"  src="" alt="" id="picStep3" class="userWidgetTitle img-thumbnail">		
+					<div id="logViewPicture"></div>
+					<button class="btn bg-gradient btn-sm btn-info" id="deleteBtn">delete</button>
+				</div>
+
+				<div class="hidden" id="step4">
+					<h2>4- Delete Picture.ssp</h2>			
+					<div id="logDeletePicture"></div>
+				</div>
+
+				
+
+				<div class="hidden" id="msgComplete">
+
+					<h2>Succ&#232;s</h2>
+				</div>
+				<div class="hidden" id="msgError">
+					<h2>Erreur</h2>
+				</div>
+			</div>
+		</div>
+
+
+        
+        
+	<!-- jQuery -->
+	<script src="../common/AdminLTE-3.0.4/plugins/jquery/jquery.min.js"></script>
+
+	<!-- jQuery UI 1.11.4 -->
+	<script src="../common/AdminLTE-3.0.4/plugins/jquery-ui/jquery-ui.min.js"></script>
+
+	
+	<script src="../common/AdminLTE-3.0.4/plugins/datatables-colreorder/js/colReorder.bootstrap4.min.js"></script>
+	<script src="../common/AdminLTE-3.0.4/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+
+
+	<script src="../common/js/jquery.ui.widget.js"></script>
+	<script src="../common/js/jquery.fileupload.js"></script>
+
+	<!-- SOLUNIX -->
+	<script src="../common/js/js.cookie.js"></script>
+	<script src="../common/js/solunix.js"></script>
+
+
+	
+
+
+	<script src="../shared/winpro/js/wpComponents.js"></script>
+	<script src="../shared/winpro/js/wpConverter.js"></script>
+	<script src="../shared/winpro/js/wpPageRenderer.js"></script>
+	<script src="../shared/winpro/js/wpApplication.js"></script>
+	<script src="../shared/winpro/js/wpTest.js"></script>
+
+	
+
+
+        <script src="js/test.js"></script>
+
+	</body>
+</html>
+

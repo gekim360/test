@@ -1,0 +1,15 @@
+vwEmployees
+vwProjectsDailyTimesheets
+vwProjectsTimesheetsUsersAccess
+vwProjectsDailyTimesheetsLines
+vwEmployeesGroups
+vwProjects
+vwProjectsActivities
+vwProjectsCategorie
+vwUsersActives
+vwInternalMessagesUsersInbox
+vwInternalMessagesUsersOutbox
+vwProjectsTimesheetEmployeePayStubs
+vwSetupAdvancedConfig
+vwMessagesUsersUnRead
+vwUserNotice
